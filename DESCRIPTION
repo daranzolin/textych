@@ -1,0 +1,17 @@
+Package: textych
+Title: Create Interactive Text Parallels
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "David",
+           family = "Ranzolin",
+           role = c("aut", "cre"),
+           email = "daranzolin@gmail.com")
+Description: The parallel arrangement of texts can facilitate comparative study. Create 'textychs' and
+  customize tooltips and colors to highlight key differences, definitions, or values. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rlang,
+    magrittr
+RoxygenNote: 7.0.2

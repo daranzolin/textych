@@ -1,0 +1,39 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 10%;
+  margin-left: -10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: block;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.textContainer {
+  padding-top: 10px;
+}
+
+#tthidden {
+  visibility: hidden;
+}
+
+#ttvisible {
+  visibility: visible;
+}
