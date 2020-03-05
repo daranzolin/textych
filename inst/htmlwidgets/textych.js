@@ -11,7 +11,7 @@ HTMLWidgets.widget({
       renderValue: function(opts) {
 
         let data = HTMLWidgets.dataframeToD3(opts.data);
-        console.log(data);
+        //console.log(data);
         const svg = d3.select(el)
                     .append("svg")
                     .style("width", "100%")
